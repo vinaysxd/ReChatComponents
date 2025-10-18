@@ -1,0 +1,34 @@
+{
+  "name": "rechatcomponents",
+  "version": "1.0.0",
+  "description": "A fully customizable, plug-and-play React Native chat component.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vs_xd",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-native": ">=0.68.0",
+    "@expo/vector-icons": "^13.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "react-native",
+    "chat",
+    "component",
+    "messenger",
+    "reusable",
+    "socket",
+    "typescript"
+  ]
+}
