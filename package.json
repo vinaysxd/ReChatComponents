@@ -15,11 +15,13 @@
   "author": "vs_xd",
   "license": "ISC",
   "peerDependencies": {
+    "@expo/vector-icons": ">=13.0.0",
     "react": ">=17.0.0",
-    "react-native": ">=0.68.0",
-    "@expo/vector-icons": ">=13.0.0"
+    "react-native": ">=0.68.0"
   },
   "devDependencies": {
+    "@types/react": "^19.2.2",
+    "@types/react-native": "^0.73.0",
     "typescript": "^5.0.0"
   },
   "keywords": [
